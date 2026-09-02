@@ -15,6 +15,7 @@ Hermes Agent 自定义技能集，中国神话 + 科学史双线命名体系。
 | **Duan** | 段永平 | 经营投资 | 本分/平常心/不为清单/敢为天下后，企业价值评估 |
 | **Trio** | 三视角 | 决策顾问 | 芒格(风险)+段永平(经营)+盖洛普(优势)三视角分析，超哥拍板 |
 | **WeChat** | 公众号抓取 | 内容采集 | 微信公众号文章抓取 — 单篇/递归/每日定时，搜狗搜索+解跳转 |
+| **Free Vision** | 自由视觉 | 镜头语言 | 景别×机位×构图×镜头运动 → 电影化提示词；环绕/推拉/升降/俯仰/FPV/跟拍 |
 
 ## 部署
 
@@ -24,12 +25,13 @@ Hermes Agent 自定义技能集，中国神话 + 科学史双线命名体系。
 cp -r cangjie ~/.hermes/skills/cangjie-skill
 cp -r nuwa ~/.hermes/skills/nuwa-skill
 cp -r darwin ~/.hermes/skills/darwin-skill
+cp -r free-vision ~/.hermes/skills/free-vision
 ```
 
 或通过 Hermes Agent 直接安装：
 
 ```
-技能安装路径: ~/.hermes/skills/{cangjie-skill,nuwa-skill,darwin-skill,munger-risk-officer,gallup-strengths,duan-yongping,trio-advisor,wechat-article-scraper}
+技能安装路径: ~/.hermes/skills/{cangjie-skill,nuwa-skill,darwin-skill,munger-risk-officer,gallup-strengths,duan-yongping,trio-advisor,wechat-article-scraper,free-vision}
 ```
 
 ## 触发方式
